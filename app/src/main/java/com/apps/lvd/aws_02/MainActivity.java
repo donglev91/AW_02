@@ -42,8 +42,8 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private final String KEY = "AKIAIYM647GUXVRT3J4A";
-    private final String SECRET = "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";
+    private final String KEY = "123";
+    private final String SECRET = "456";
 
     private AmazonS3Client s3Client;
     private BasicAWSCredentials credentials;
