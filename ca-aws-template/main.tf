@@ -8,10 +8,6 @@ resource "aws_instance" "cda_instance" {
   ami                    = "${var.aws_ami}"
   instance_type          = "t2.micro"
   vpc_security_group_ids = ["sg-fef1f999"]
-  
-  tags {
-    Name = "cda_instance"
-  }
 }
 
 output "public_port" {
