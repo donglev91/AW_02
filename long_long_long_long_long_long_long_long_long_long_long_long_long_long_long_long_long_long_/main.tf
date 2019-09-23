@@ -10,7 +10,7 @@ provider "jira" {
 provider "cda_provider" {
 }
 
-provider "cda_provider--------------------------------------------------" {
+provider "cda_provider--------------------------------------------------long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_" {
 }
 
 provider "vsphere" {
@@ -90,5 +90,5 @@ variable "a2" {
 }
 
 variable "a3" {
-	default = "Deploy"
+	default = "long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_long_"
 }
