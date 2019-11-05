@@ -31,9 +31,9 @@ variable "aws_security_group_id" {
 }
 
 provider "cda" {
-  cda_server     = "${var.cda_server}"
-  user           = "${var.cda_user}"
-  password       = "${var.cda_password}"  
+  cda_server     = "server"
+  user           = "user"
+  password       = "password"  
 	
   default_attributes = { // default_attributes can be used to set the 'folder' and 'owner' attributes globally for the template.
     folder = "DEFAULT"
