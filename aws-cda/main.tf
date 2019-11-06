@@ -37,6 +37,6 @@ provider "cda" {
 	
   default_attributes = { // default_attributes can be used to set the 'folder' and 'owner' attributes globally for the template.
     folder = "DEFAULT"
-    owner  = "100/BOND/AUTOMIC"
+    owner  = "100/AUTOMIC/AUTOMIC"
   }
 }
