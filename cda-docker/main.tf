@@ -1,11 +1,11 @@
 provider "cda" {
-  cda_server     = "${var.cda_server}"
-  user           = "${var.cda_user}"
-  password       = "${var.cda_password}"  
+  cda_server     = "http://localhost/cda"
+  user           = "100/AUTOMIC/AUTOMIC"
+  password       = "automic"  
 	
   default_attributes = { // default_attributes can be used to set the 'folder' and 'owner' attributes globally for the template.
     folder = "DEFAULT"
-    owner  = "100/BOND/AUTOMIC"
+    owner  = "100/AUTOMIC/AUTOMIC"
   }
 }
 
