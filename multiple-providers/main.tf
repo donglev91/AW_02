@@ -7,6 +7,9 @@ provider "aws" {
 provider "jira" {
 }
 
+provider "jira" {
+}
+
 provider "cda" {
 }
 
