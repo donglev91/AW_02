@@ -7,7 +7,7 @@ provider "aws" {
 provider "jira" {
 }
 
-provider "cda_provider" {
+provider "cda" {
 }
 
 provider "vsphere" {
