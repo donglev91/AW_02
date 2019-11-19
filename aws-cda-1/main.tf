@@ -11,7 +11,7 @@ variable "aws_access_key" {
 variable "aws_secret_key" {
   default = "your aws secret key"
 }
-
+/*
 provider "cda" {
   cda_server     = "http://localhost/cda"
   user           = "100/AUTOMIC/AUTOMIC"
@@ -22,3 +22,4 @@ provider "cda" {
     owner  = "100/AUTOMIC/AUTOMIC"
   }
 }
+*/
